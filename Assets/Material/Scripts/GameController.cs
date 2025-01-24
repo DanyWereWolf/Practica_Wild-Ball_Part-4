@@ -8,7 +8,7 @@ namespace WildBall.inputs
     public class GameController : MonoBehaviour
     {
 
-        [SerializeField, Range(0, 10)] private float speed = 2f;
+        [SerializeField, Range(0, 20)] private float speed = 2f;
         [SerializeField] private Rigidbody playerRigidbody;
         [SerializeField] private Vector3 movement;
         [SerializeField] public float impactForce = 5f;
@@ -56,15 +56,15 @@ namespace WildBall.inputs
                 hasKey = true; 
                 Destroy(other.gameObject); 
             }
-        }
-        private void OnTriggerExit(Collider other)
-        {
-
-            if (other.CompareTag("Coin"))
+            else if (other.CompareTag("Coin"))
             {
                 bonusInt += 1;
                 Destroy(other.gameObject);
             }
+        }
+        private void OnTriggerExit(Collider other)
+        {
+          
         }
         public void Drag()
         {

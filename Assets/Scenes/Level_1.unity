@@ -28245,9 +28245,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6322618486513722724, guid: b9f7ce39c99d12f4cb431a3a6b847979, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6322618486513722724, guid: b9f7ce39c99d12f4cb431a3a6b847979, type: 3}
       propertyPath: bonusText
       value: 
       objectReference: {fileID: 355836916}
+    - target: {fileID: 6322618486513722724, guid: b9f7ce39c99d12f4cb431a3a6b847979, type: 3}
+      propertyPath: impactForce
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6322618486513722724, guid: b9f7ce39c99d12f4cb431a3a6b847979, type: 3}
       propertyPath: particleSystem
       value: 

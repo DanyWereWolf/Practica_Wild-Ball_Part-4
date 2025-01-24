@@ -4998,15 +4998,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84a091b99d5669f4bb72e3b3700f9095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57.2
+      value: -8.72
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84a091b99d5669f4bb72e3b3700f9095, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.99
+      value: 0.763
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84a091b99d5669f4bb72e3b3700f9095, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -98.3
+      value: 3.73
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 84a091b99d5669f4bb72e3b3700f9095, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5094,7 +5094,7 @@ Rigidbody:
   m_GameObject: {fileID: 9067638481838912795}
   serializedVersion: 4
   m_Mass: 0.5
-  m_Drag: 0
+  m_Drag: 7
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -5145,7 +5145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b237d6ca6748be4fa946dc66ee061bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 20
   playerRigidbody: {fileID: 4171651731663009759}
   movement: {x: 0, y: 0, z: 0}
   impactForce: 1
